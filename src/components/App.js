@@ -23,27 +23,31 @@ const App: ()  =>Node = () => {
     return (
         <NavigationContainer>
             <Tab.Navigator
-                screenOptions={}
+                screenOptions={() => ({
+                    tabBarShowLabel: false,
+                    tabBarActiveTintColor: 'rgba(0, 0, 0, 1)',
+                    tabBarInactiveTintColor: 'rgba(0, 0, 0, .3)'
+                })}
             >
                 <Tab.Screen
                     name="Camera"
                     component={Camera}
                     options={{
-                        tabBarIcon: <Ionicons name="" size="" color=""/>
+                        tabBarIcon: ({color}) => <Ionicons name="md-add-circle" size="" color={color}/>
                     }}
                 />
                 <Tab.Screen
                     name="Follow"
                     component={Follow}
                     options={{
-                        tabBarIcon: <Ionicons name="" size="" color=""/>
+                        tabBarIcon: ({color}) => <Ionicons name="md-heart" size="" color={color}/>
                     }}
                 />
                 <Tab.Screen
                     name="HomeUser"
                     component={HomeUser}
                     options={{
-                        tabBarIcon: <Ionicons name="" size="" color=""/>
+                        tabBarIcon: ({color}) => <Ionicons name="md-home" size="" color={color}/>
                     }}
                 />
                 <Tab.Screen
@@ -60,7 +64,7 @@ const App: ()  =>Node = () => {
                     name="Search"
                     component={Search}
                     options={{
-                        tabBarIcon: <Ionicons name="" size="" color=""/>
+                        tabBarIcon: ({color}) => <Ionicons name="md-search" size="" color={color}/>
                     }}
                 />
             </Tab.Navigator>
