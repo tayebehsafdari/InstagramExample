@@ -26,22 +26,43 @@ const Profile = (props) => {
                 </View>
                 <View style={styles._profileInfo.container}>
                     <View style={styles._profileInfo.info}>
-                        <View style={{flex: .3333}}>
-                            <Text style={styles._profileInfo.infoTextNumber}>129</Text>
-                            <Text style={styles._profileInfo.infoText}>پست ها</Text>
+                        <View style={{flex: .33}}>
+                            <Text style={styles.infoTextNumber}>129</Text>
+                            <Text style={styles.infoText}>پست ها</Text>
                         </View>
-                        <View style={{flex: .3333}}>
-                            <Text style={styles._profileInfo.infoTextNumber}>129</Text>
-                            <Text style={styles._profileInfo.infoText}>پست ها</Text>
+                        <View style={{flex: .33}}>
+                            <Text style={styles.infoTextNumber}>129</Text>
+                            <Text style={styles.infoText}>پست ها</Text>
                         </View>
-                        <View style={{flex: .3333}}>
-                            <Text style={styles._profileInfo.infoTextNumber}>129</Text>
-                            <Text style={styles._profileInfo.infoText}>پست ها</Text>
+                        <View style={{flex: .33}}>
+                            <Text style={styles.infoTextNumber}>129</Text>
+                            <Text style={styles.infoText}>پست ها</Text>
                         </View>
                     </View>
-                    <View>
-                        <TouchableOpacity onPress={() => props.navigation.navigate('Settings')}>
-                            <Text>ویرایش پروفایل</Text>
+                    <View style={{
+                        height: 130,
+                        alignItems: 'center',
+                        flexDirection: 'row',
+                        marginLeft: 30,
+                        marginRight: 15
+                    }}>
+                        <TouchableOpacity
+                            onPress={() => props.navigation.navigate('Settings')}
+                            activeOpacity={.6}
+                            style={{
+                                borderWidth: 1,
+                                borderColor: 'rgba(0, 0, 0, .3)',
+                                borderRadius: 2,
+                                flex: 1
+                            }}>
+                            <Text style={{
+                                textAlign: 'center',
+                                fontFamily: 'IRANSansMobile',
+                                padding: 2
+                            }}
+                            >
+                                ویرایش پروفایل
+                            </Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -97,25 +118,29 @@ const styles = StyleSheet.create({
             flex: 4,
             justifyContent: 'space-between',
             margin: 15
-        },
-        infoTextNumber: {
-            '@media ios': {
-                fontFamily: 'IRANSansMobile',
-                fontWeight: 'bold'
-            },
-            '@media android': {
-                fontFamily: 'IRANSansMobile_Bold'
-            },
-        },
-        infoText: {
-            '@media ios': {
-                fontFamily: 'IRANSansMobile',
-                fontWeight: '300'
-            },
-            '@media android': {
-                fontFamily: 'IRANSansMobile_Bold'
-            },
         }
+    },
+    infoTextNumber: {
+        '@media ios': {
+            fontFamily: 'IRANSansMobile',
+            fontWeight: 'bold'
+        },
+        '@media android': {
+            fontFamily: 'IRANSansMobile_Bold'
+        },
+        fontSize: 16,
+        marginLeft: 10,
+        color: '#222'
+    },
+    infoText: {
+        '@media ios': {
+            fontFamily: 'IRANSansMobile',
+            fontWeight: '300'
+        },
+        '@media android': {
+            fontFamily: 'IRANSansMobile_Light'
+        },
+        textAlign: 'center'
     },
     profileName: {
         '@media ios': {
