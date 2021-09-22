@@ -28,6 +28,12 @@
 		8D7F72134748486683FFBA7D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FE50E0A4720446981C0A097 /* Octicons.ttf */; };
 		B413F300D4D94067AB4F4503 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF74A99764AE48BFAA0FA13F /* SimpleLineIcons.ttf */; };
 		BB66FBB8AB8D44D290299A17 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130D11C7611E480AA35C850B /* Zocial.ttf */; };
+		9051981C611348B7A1E13963 /* IRANSansMobile_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6D7ED4F1E664F5AAFF5C3DD /* IRANSansMobile_Black.ttf */; };
+		C106751E5BB24ABDA3B4A9A4 /* IRANSansMobile_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D08FD925E07A479DAE1E62D7 /* IRANSansMobile_Bold.ttf */; };
+		11A809F1902440E5960C76A6 /* IRANSansMobile_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E216B92B23734A6AA77D9B27 /* IRANSansMobile_Light.ttf */; };
+		E99E352E4CE94C7A86028ACA /* IRANSansMobile_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8859138F864449296C49384 /* IRANSansMobile_Medium.ttf */; };
+		9553CEBABAAA407DBFEC0376 /* IRANSansMobile_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC3517F791F846D78563674D /* IRANSansMobile_UltraLight.ttf */; };
+		4931F89006B0431899CACA50 /* IRANSansMobile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF3FB0CD65540D7B879BFC5 /* IRANSansMobile.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,12 @@
 		3FE50E0A4720446981C0A097 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		DF74A99764AE48BFAA0FA13F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		130D11C7611E480AA35C850B /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6D7ED4F1E664F5AAFF5C3DD /* IRANSansMobile_Black.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile_Black.ttf"; path = "../src/assets/fonts/IRANSansMobile_Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D08FD925E07A479DAE1E62D7 /* IRANSansMobile_Bold.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile_Bold.ttf"; path = "../src/assets/fonts/IRANSansMobile_Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E216B92B23734A6AA77D9B27 /* IRANSansMobile_Light.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile_Light.ttf"; path = "../src/assets/fonts/IRANSansMobile_Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8859138F864449296C49384 /* IRANSansMobile_Medium.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile_Medium.ttf"; path = "../src/assets/fonts/IRANSansMobile_Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC3517F791F846D78563674D /* IRANSansMobile_UltraLight.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile_UltraLight.ttf"; path = "../src/assets/fonts/IRANSansMobile_UltraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DF3FB0CD65540D7B879BFC5 /* IRANSansMobile.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile.ttf"; path = "../src/assets/fonts/IRANSansMobile.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +188,12 @@
 				3FE50E0A4720446981C0A097 /* Octicons.ttf */,
 				DF74A99764AE48BFAA0FA13F /* SimpleLineIcons.ttf */,
 				130D11C7611E480AA35C850B /* Zocial.ttf */,
+				E6D7ED4F1E664F5AAFF5C3DD /* IRANSansMobile_Black.ttf */,
+				D08FD925E07A479DAE1E62D7 /* IRANSansMobile_Bold.ttf */,
+				E216B92B23734A6AA77D9B27 /* IRANSansMobile_Light.ttf */,
+				E8859138F864449296C49384 /* IRANSansMobile_Medium.ttf */,
+				DC3517F791F846D78563674D /* IRANSansMobile_UltraLight.ttf */,
+				2DF3FB0CD65540D7B879BFC5 /* IRANSansMobile.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +305,12 @@
 				8D7F72134748486683FFBA7D /* Octicons.ttf in Resources */,
 				B413F300D4D94067AB4F4503 /* SimpleLineIcons.ttf in Resources */,
 				BB66FBB8AB8D44D290299A17 /* Zocial.ttf in Resources */,
+				9051981C611348B7A1E13963 /* IRANSansMobile_Black.ttf in Resources */,
+				C106751E5BB24ABDA3B4A9A4 /* IRANSansMobile_Bold.ttf in Resources */,
+				11A809F1902440E5960C76A6 /* IRANSansMobile_Light.ttf in Resources */,
+				E99E352E4CE94C7A86028ACA /* IRANSansMobile_Medium.ttf in Resources */,
+				9553CEBABAAA407DBFEC0376 /* IRANSansMobile_UltraLight.ttf in Resources */,
+				4931F89006B0431899CACA50 /* IRANSansMobile.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

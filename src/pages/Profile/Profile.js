@@ -24,10 +24,23 @@ const Profile = (props) => {
                         style={styles._profileImage.icon}
                     />
                 </View>
-                <View>
-                    <View></View>
+                <View style={styles._profileInfo.container}>
+                    <View style={styles._profileInfo.info}>
+                        <View style={{flex: .3333}}>
+                            <Text style={styles._profileInfo.infoTextNumber}>129</Text>
+                            <Text style={styles._profileInfo.infoText}>پست ها</Text>
+                        </View>
+                        <View style={{flex: .3333}}>
+                            <Text style={styles._profileInfo.infoTextNumber}>129</Text>
+                            <Text style={styles._profileInfo.infoText}>پست ها</Text>
+                        </View>
+                        <View style={{flex: .3333}}>
+                            <Text style={styles._profileInfo.infoTextNumber}>129</Text>
+                            <Text style={styles._profileInfo.infoText}>پست ها</Text>
+                        </View>
+                    </View>
                     <View>
-                        <TouchableOpacity>
+                        <TouchableOpacity onPress={() => props.navigation.navigate('Settings')}>
                             <Text>ویرایش پروفایل</Text>
                         </TouchableOpacity>
                     </View>
@@ -73,6 +86,35 @@ const styles = StyleSheet.create({
             left: 30,
             borderRadius: 18,
             overflow: 'hidden'
+        }
+    },
+    _profileInfo: {
+        container: {
+            flex: .7,
+        },
+        info: {
+            flexDirection: 'row',
+            flex: 4,
+            justifyContent: 'space-between',
+            margin: 15
+        },
+        infoTextNumber: {
+            '@media ios': {
+                fontFamily: 'IRANSansMobile',
+                fontWeight: 'bold'
+            },
+            '@media android': {
+                fontFamily: 'IRANSansMobile_Bold'
+            },
+        },
+        infoText: {
+            '@media ios': {
+                fontFamily: 'IRANSansMobile',
+                fontWeight: '300'
+            },
+            '@media android': {
+                fontFamily: 'IRANSansMobile_Bold'
+            },
         }
     },
     profileName: {
