@@ -1,12 +1,13 @@
-import {StyleSheet} from 'react-native';
+// import {StyleSheet} from 'react-native';
+import EStyleSheet from 'react-native-extended-stylesheet';
 
-const styles = StyleSheet.create({
+const styles = EStyleSheet.create({
     tabNavigatorProfileIcon: {
         width: 26,
         height: 26,
         borderRadius: 13,
         borderWidth: 1,
-        borderColor: '#333'
+        borderColor: '$colorDark'
     }
 });
 

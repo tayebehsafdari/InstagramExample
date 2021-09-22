@@ -5,6 +5,11 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import EStyleSheet from 'react-native-extended-stylesheet';
+
+EStyleSheet.build({
+    $colorDark:'#333'
+});
 
 import styles from './../assets/css';
 
