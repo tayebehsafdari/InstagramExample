@@ -1,16 +1,33 @@
 import React from 'react';
-import type {Node} from 'react';
-import {
-    View,
-    Text
-} from 'react-native';
+import {Text} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-const Profile = (props): Node => {
+import Profile from "./Profile";
+import Settings from "./Settings";
+
+const Stack = createNativeStackNavigator();
+const ProfileStack = () => {
     return (
-        <View style={{flex: 1, backgroundColor: '#c0392b', justifyContent: 'center', alignItems: 'center'}}>
-            <Text>Profile Page</Text>
-        </View>
+        <NavigationContainer>
+            <Stack.Navigator
+                screenOptions={{}}
+            >
+                <Stack.Screen
+                    name="Profile"
+                    component={Profile}
+                    // options:{{title: 'مجله آموزشی طیبه صفدری دوست'}}
+                    options={{
+                        headerTitle: <Text style={OriginalStyle.headerTitleStyle}>طیبه صفدری دوست</Text>
+                    }}
+                />
+                <Stack.Screen
+                    name="Settings"
+                    component={Settings}
+                />
+            </Stack.Navigator>
+        </NavigationContainer>
     );
 }
 
-export default Profile;
+export default ProfileStack;

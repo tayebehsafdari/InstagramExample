@@ -4,12 +4,12 @@ import {
     Text
 } from 'react-native';
 
-const Settings = (props) => {
+const Archive = (props) => {
     return (
         <View style={{flex: 1, backgroundColor: '#c0392b', justifyContent: 'center', alignItems: 'center'}}>
-            <Text>Settings Page</Text>
+            <Text>Archive Page</Text>
         </View>
     );
 }
 
-export default Settings;
+export default Archive;
