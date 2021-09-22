@@ -7,7 +7,7 @@ import {
 
 const Profile = (props): Node => {
     return (
-        <View style={{flex: 1, backgroundColor: '#16a085', justifyContent: 'center', alignItems: 'center'}}>
+        <View style={{flex: 1, backgroundColor: '#c0392b', justifyContent: 'center', alignItems: 'center'}}>
             <Text>Profile Page</Text>
         </View>
     );

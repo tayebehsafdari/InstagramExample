@@ -7,7 +7,7 @@ import {
 
 const Search = (props): Node => {
     return (
-        <View style={{flex: 1, backgroundColor: '#16a085', justifyContent: 'center', alignItems: 'center'}}>
+        <View style={{flex: 1, backgroundColor: '#f39c12', justifyContent: 'center', alignItems: 'center'}}>
             <Text>Search Page</Text>
         </View>
     );

@@ -7,7 +7,7 @@ import {
 
 const Follow = (props): Node => {
     return (
-        <View style={{flex: 1, backgroundColor: '#16a085', justifyContent: 'center', alignItems: 'center'}}>
+        <View style={{flex: 1, backgroundColor: '#8e44ad', justifyContent: 'center', alignItems: 'center'}}>
             <Text>Follow Page</Text>
         </View>
     );
