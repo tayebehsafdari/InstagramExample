@@ -3,8 +3,7 @@ import {
     View,
     Text,
     Image,
-    TouchableOpacity,
-    StyleSheet
+    TouchableOpacity
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import EStyleSheet from 'react-native-extended-stylesheet';
@@ -81,7 +80,7 @@ Profile.navigationOptions = ({navigation}) => ({
     </View>
 });
 
-const styles = StyleSheet.create({
+const styles = EStyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'white',
